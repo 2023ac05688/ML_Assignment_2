@@ -13,7 +13,6 @@ Build and evaluate multiple machine learning classification models on a single d
 - **Why selected:** Meets assignment constraints (minimum 500 instances and 12 features) and is suitable for demonstrating multiple classifiers.
 
 ## c) Github Repository Link
-- Replace this with your actual link before submission:
 - **GitHub Repo:** https://github.com/2023ac05688/ML_Assignment_2
 
 Repository contains:
@@ -66,6 +65,5 @@ streamlit run app.py
 ```
 
 ## Streamlit Deployment Link
-- Replace this with your deployed app URL:
 - **Streamlit App:** https://mlassignment2-ckfvjeg9okucrsqc3xf4kb.streamlit.app/
 
