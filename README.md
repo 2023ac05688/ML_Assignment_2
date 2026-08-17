@@ -14,7 +14,7 @@ Build and evaluate multiple machine learning classification models on a single d
 
 ## c) Github Repository Link
 - Replace this with your actual link before submission:
-- **GitHub Repo:** https://github.com/<your-username>/<your-repo-name>
+- **GitHub Repo:** https://github.com/2023ac05688/ML_Assignment_2
 
 Repository contains:
 - `app.py`
@@ -67,10 +67,5 @@ streamlit run app.py
 
 ## Streamlit Deployment Link
 - Replace this with your deployed app URL:
-- **Streamlit App:** https://<your-app-name>.streamlit.app
+- **Streamlit App:** https://mlassignment2-ckfvjeg9okucrsqc3xf4kb.streamlit.app/
 
-## Submission Checklist (as per assignment)
-- Include this README content in your final PDF
-- Add clickable GitHub repository link in PDF
-- Add clickable Streamlit app link in PDF
-- Add screenshot of execution on BITS Virtual Lab in PDF
