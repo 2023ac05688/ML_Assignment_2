@@ -65,5 +65,5 @@ streamlit run app.py
 ```
 
 ## Streamlit Deployment Link
-- **Streamlit App:** https://mlassignment2-ckfvjeg9okucrsqc3xf4kb.streamlit.app/
+- **Streamlit App:** https://mlassignment2-classifymodels.streamlit.app/
 
