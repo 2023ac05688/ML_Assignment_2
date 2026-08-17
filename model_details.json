@@ -1,0 +1,136 @@
+{
+  "dataset_name": "Breast Cancer Wisconsin (Diagnostic)",
+  "dataset_source": "UCI Machine Learning Repository",
+  "target_column": "target",
+  "feature_columns": [
+    "mean radius",
+    "mean texture",
+    "mean perimeter",
+    "mean area",
+    "mean smoothness",
+    "mean compactness",
+    "mean concavity",
+    "mean concave points",
+    "mean symmetry",
+    "mean fractal dimension",
+    "radius error",
+    "texture error",
+    "perimeter error",
+    "area error",
+    "smoothness error",
+    "compactness error",
+    "concavity error",
+    "concave points error",
+    "symmetry error",
+    "fractal dimension error",
+    "worst radius",
+    "worst texture",
+    "worst perimeter",
+    "worst area",
+    "worst smoothness",
+    "worst compactness",
+    "worst concavity",
+    "worst concave points",
+    "worst symmetry",
+    "worst fractal dimension"
+  ],
+  "model_files": {
+    "Logistic Regression": "model/logistic_regression.joblib",
+    "Decision Tree": "model/decision_tree.joblib",
+    "kNN": "model/knn.joblib",
+    "Naive Bayes": "model/naive_bayes.joblib",
+    "Random Forest": "model/random_forest.joblib"
+  },
+  "metrics": {
+    "Logistic Regression": {
+      "Accuracy": 0.9649122807017544,
+      "AUC": 0.9953703703703703,
+      "Precision": 0.9594594594594594,
+      "Recall": 0.9861111111111112,
+      "F1": 0.9726027397260274,
+      "MCC": 0.9245181185940877,
+      "ConfusionMatrix": [
+        [
+          39,
+          3
+        ],
+        [
+          1,
+          71
+        ]
+      ]
+    },
+    "Decision Tree": {
+      "Accuracy": 0.9122807017543859,
+      "AUC": 0.9156746031746031,
+      "Precision": 0.9558823529411765,
+      "Recall": 0.9027777777777778,
+      "F1": 0.9285714285714286,
+      "MCC": 0.8174119974927639,
+      "ConfusionMatrix": [
+        [
+          39,
+          3
+        ],
+        [
+          7,
+          65
+        ]
+      ]
+    },
+    "kNN": {
+      "Accuracy": 0.9298245614035088,
+      "AUC": 0.9523809523809523,
+      "Precision": 0.9444444444444444,
+      "Recall": 0.9444444444444444,
+      "F1": 0.9444444444444444,
+      "MCC": 0.8492063492063492,
+      "ConfusionMatrix": [
+        [
+          38,
+          4
+        ],
+        [
+          4,
+          68
+        ]
+      ]
+    },
+    "Naive Bayes": {
+      "Accuracy": 0.9385964912280702,
+      "AUC": 0.9877645502645502,
+      "Precision": 0.9452054794520548,
+      "Recall": 0.9583333333333334,
+      "F1": 0.9517241379310345,
+      "MCC": 0.8675534786006366,
+      "ConfusionMatrix": [
+        [
+          38,
+          4
+        ],
+        [
+          3,
+          69
+        ]
+      ]
+    },
+    "Random Forest": {
+      "Accuracy": 0.9473684210526315,
+      "AUC": 0.9937169312169313,
+      "Precision": 0.9583333333333334,
+      "Recall": 0.9583333333333334,
+      "F1": 0.9583333333333334,
+      "MCC": 0.8869047619047619,
+      "ConfusionMatrix": [
+        [
+          39,
+          3
+        ],
+        [
+          3,
+          69
+        ]
+      ]
+    }
+  }
+}
